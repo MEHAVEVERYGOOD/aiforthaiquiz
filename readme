@@ -1,0 +1,10 @@
+วิธี Deploy
+
+1.run Docker
+2.เปิดโฟลเดอร์ AIFORTHAIQUIZ
+3.พิมม์คำสั่ง docker compose up --build ใน terminal
+
+วิธีทดสอบ
+
+API1 ใส่ url http://localhostของท่าน:6969 ใน browser 
+API2 ใส่ url http://localhostของท่าน:1234 ใน browser
