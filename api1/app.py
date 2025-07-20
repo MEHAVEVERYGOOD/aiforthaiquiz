@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     print("[API1] รับคำขอจาก User")
-    response = requests.get('http://api2:5001/')
+    response = requests.get('http://api2:1234/')
     print("[API1] ได้คำตอบจาก API2:", response.text)
     return jsonify({
         "api1": "ginaraidee from api1",
